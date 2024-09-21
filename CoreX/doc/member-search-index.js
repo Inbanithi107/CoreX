@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Com.CoreX.Calculation","c":"SimpleCalculation","l":"Addition(String, String)","u":"Addition(java.lang.String,java.lang.String)"},{"p":"Com.CoreX.Calculation","c":"SimpleCalculation","l":"SimpleCalculation()","u":"%3Cinit%3E()"}];updateSearchResults();

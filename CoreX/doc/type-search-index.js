@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Com.CoreX.Calculation","l":"SimpleCalculation"}];updateSearchResults();
