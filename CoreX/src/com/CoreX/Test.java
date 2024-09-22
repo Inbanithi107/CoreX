@@ -10,8 +10,8 @@ public class Test {
 	public static void main(String[] args) {
 		
 		Input input = new Input();
-		Convert convert = input.getInput("Enter a number", String.class);
-		System.out.println(convert.getStringdata());
+		char a =(Character) input.getInput("Enter a number", Character.class);
+		System.out.println(a);
 	}
 
 }

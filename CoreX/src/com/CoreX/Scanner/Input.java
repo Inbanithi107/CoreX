@@ -16,7 +16,7 @@ public class Input {
 	 * @param message
 	 * @param Type
 	 */
-	public Convert getInput(String message, Class<?> Type) {
+	public Object getInput(String message, Class<?> Type) {
 		
 		Convert convert = new Convert();
 		
@@ -24,37 +24,72 @@ public class Input {
 		
 		if(Type==Integer.class) {
 			int result=s.nextInt();
-			convert.setIntegerdata(result);
-			return convert;
+			
+			return result;
 		}
 		if(Type==Double.class) {
 			double result=s.nextDouble();
-			convert.setDoubledata(result);
-			return convert;
+			
+			return result;
 		}
 		if(Type==Float.class) {
 			float result=s.nextFloat();
-			convert.setFloatdata(result);
-			return convert;
+			
+			return result;
 		}
 		if(Type==Long.class) {
 			long result=s.nextLong();
-			convert.setLongdata(result);
-			return convert;
+			
+			return result;
 		}
 		if(Type==Character.class) {
 			char result=s.next().charAt(0);
-			convert.setChardata(result);
-			return convert;
+			
+			return result;
 		}
 		if(Type==String.class) {
 			String result=s.nextLine();
-			convert.setStringdata(result);
-			return convert;
+			
+			return result;
 		}
 		
-		return convert;
+		return new Object();
 		
+	}
+	
+	public Object getInput(Class<?> Type) {
+		if(Type==Integer.class) {
+			int result=s.nextInt();
+			
+			return result;
+		}
+		if(Type==Double.class) {
+			double result=s.nextDouble();
+			
+			return result;
+		}
+		if(Type==Float.class) {
+			float result=s.nextFloat();
+			
+			return result;
+		}
+		if(Type==Long.class) {
+			long result=s.nextLong();
+			
+			return result;
+		}
+		if(Type==Character.class) {
+			char result=s.next().charAt(0);
+			
+			return result;
+		}
+		if(Type==String.class) {
+			String result=s.nextLine();
+			
+			return result;
+		}
+		
+		return new Object();
 	}
 
 }
