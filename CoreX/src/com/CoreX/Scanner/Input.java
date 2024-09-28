@@ -91,5 +91,13 @@ public class Input {
 		
 		return new Object();
 	}
+	
+	public int[] GetArray(int length) {
+		int[] arr = new int[length];
+		for(int i=0;i<length;i++) {
+			arr[i]=s.nextInt();
+		}
+		return arr;
+	}
 
 }
